@@ -1,1 +1,1 @@
-MAJOR: Computer Engineering
+**MAJOR**: *Computer Engineering*

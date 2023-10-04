@@ -1,3 +1,6 @@
 # **Lab Report 1**
 ## cd command examples
-![Image]()
+![Image](cd_Command.png)
+
+## ls command examples
+

@@ -20,15 +20,6 @@ Output explanation:
 ![Image](cat.png)
 The working directory is "/home".
 Output explanation:
-
-
-
-
-
-Share an example of using the command with no arguments.
-Share an example of using the command with a path to a directory as an argument.
-Share an example of using the command with a path to a file as an argument.
-
-What the working directory was when the command was run
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
+* Command cat with no arguments will wait for input from the keyboard and return that input until it recieve the end signal created by the key combination CTRL+D.
+* Command cat with a path to a directory as an argument returns if the given path is an existing directory or file.
+* Command cat with a path to a file print out the data stored in that file keeping the format. 

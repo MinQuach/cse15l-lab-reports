@@ -1,3 +1,5 @@
+# **Lab Report 1**
+
 **Part 1:**
 *Code:*
 ![Image](code.png)

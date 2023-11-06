@@ -60,4 +60,17 @@
 ```
    
 **Part 2:**
+I use the "man find" command to look for the find -option that I found here.
+- name option:
+![Image](-name.png)
 
+- path option:
+![Image](-path.png)
+
+- size option:
+![Image](-size1.png)
+![Image](-size2.png)
+
+- type option:
+![Image](-type1.png)
+![Image](-type2.png)

@@ -1,7 +1,7 @@
 # **Lab Report 3**
 
 **Part 1:**
-1. A failure-inducing input for the buggy program, as a JUnit test and any associated code/
+1. A failure-inducing input for the buggy program, as a JUnit test and any associated code
 ```
     @Test
     public void filterRetainsOrderOfInput(){

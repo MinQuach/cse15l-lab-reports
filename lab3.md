@@ -14,9 +14,7 @@
         assertEquals("A", outList.get(0));
         assertEquals("B", outList.get(1));
     }
-
 ```
-
 2. An input that doesn’t induce a failure, as a JUnit test and any associated code
 ```
     @Test

@@ -61,31 +61,46 @@ Explanation: The "0" in the "add" method ```result.add(0, s)``` indicates that "
 
 **Part 2:**
 I use the "man find" command to look for the find -option that I found here.
-- name option:
+- iname option: perform a case-insensitive search. This option is useful when you can't remember the exact name of the file. 
 ```
-    find ./technical/biomed/ -name "rr*.txt"
+    find ./technical/biomed/ -iname "*rr*txt"
 ```
+This command will find files that have "rr" in the filename or have a similar filename with "rr.txt" in the ./technical/biomed/ directory. Like "Rr123.txt".
 ```
-    find . -name "14*.txt"
+    find . -iname "*14*txt"
 ```
-- path option:
+This command will find files that have "14" in the filename or have a similar filename with "14.txt" in the current working directory. Like "abc147.txt".
+Source: [Link](https://www.redhat.com/sysadmin/linux-find-command)
+
+- atime option: search for files based on their last access time. This kind of command can be useful for identifying files that haven't been accessed in a long time. 
 ```
-    find . -path ./technical/biomed/1*15.txt
+    find ./technical/biomed/ -atime +180
 ```
+This command will search for files in the ./technical/biomed/ directory that have not been accessed in the last 180 days.
 ```
-    find . -path "*./*plos*.txt"
+    find ./technical/biomed/ -atime -90
 ```
-- size option:
+This command will find and display files in the current directory that have been accessed within the last 90 days.
+Source: [Link](https://geekflare.com/how-to-use-find-command-in-linux/)
+
+- size option: search for files based on their size. This option is used for identifying and listing files based on their sizes, allowing you to manage or analyze files based on their storage requirements.
 ```
-    find . -size -100M"
+    find ./technical/ -size +100M
 ```
+This command will find and display files in the ./technical/ directory that are larger than 100 megabytes.
 ```
-    find ./technical/plos/ -size +0M -size -5M
+    find . -size -1G
 ```
-- type option:
+This command will find and display files in the current directory that are smaller than 1 gigabyte.
+Source: [Link](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)
+
+- mtime option: search for files based on their last modification time. This is useful for identifying and listing files that have been modified recently, allowing you to manage or analyze files based on their modification times.
 ```
-    find . -type f
+    find ~ -mtime -30
 ```
+This command will find and display files in the home directory that have been modified within the last 30 days.
 ```
-    find . -type d
+    find ./technical/plos/ -mtime -60
 ```
+This command will find and display files in the ./technical/plos/ directory that have been modified within the last 60 days.
+Source: [Link](https://opensource.com/article/21/9/linux-find-command)

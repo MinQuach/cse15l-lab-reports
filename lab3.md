@@ -55,7 +55,8 @@
     return result;
   }
 ```
-   
+Explanation: The "0" in the "add" method ```result.add(0, s)``` indicates that "s" will always be substituted to index 0 and replace the old string at index 0, instead of being appended to the end of the list. By removing "0", we now use the "add" method to append "s".
+
 **Part 2:**
 I use the "man find" command to look for the find -option that I found here.
 - name option:

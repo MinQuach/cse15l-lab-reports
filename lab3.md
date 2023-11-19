@@ -30,7 +30,6 @@
 3. The symptom, as the output of running the tests
 
 ![Image](symptom_lab3.png)
-
 4. The bug, as the before-and-after code change required to fix it
    Before:
 ```
@@ -61,15 +60,17 @@ Explanation: The "0" in the "add" method ```result.add(0, s)``` indicates that "
 **Part 2:**
 I use the "man find" command to look for the find -option that I found here.
 - name option:
-![Image](-name.png)
+        ```find ./technical/biomed/ -name "rr*.txt"```
+        ```find . -name "14*.txt"```
 
 - path option:
-![Image](-path.png)
+        ```find . -path ./technical/biomed/1*15.txt```
+        ```find . -path "*./*plos*.txt"```
 
 - size option:
-![Image](-size1.png)
-![Image](-size2.png)
+        ```find . -size -100M"```
+        ```find ./technical/plos/ -size +0M -size -5M```
 
 - type option:
-![Image](-type1.png)
-![Image](-type2.png)
+        ```find . -type f```
+        ```find . -type d```

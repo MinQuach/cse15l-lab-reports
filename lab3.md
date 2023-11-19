@@ -1,7 +1,8 @@
 # **Lab Report 3**
 
 **Part 1:**
-*. A failure-inducing input for the buggy program, as a JUnit test and any associated code
+
+1. A failure-inducing input for the buggy program, as a JUnit test and any associated code
 ```
     @Test
     public void filterRetainsOrderOfInput(){
@@ -15,7 +16,7 @@
         assertEquals("B", outList.get(1));
     }
 ```
-*. An input that doesn’t induce a failure, as a JUnit test and any associated code
+2. An input that doesn’t induce a failure, as a JUnit test and any associated code
 ```
     @Test
     public void filterDoesNotIncludeElementsWhereSCReturnsFalse(){
@@ -27,11 +28,11 @@
         assertEquals(0, outList.size());
     }
 ```
-*. The symptom, as the output of running the tests
+3. The symptom, as the output of running the tests
 
-![Image](symptom_lab3.png)
+    ![Image](symptom_lab3.png)
 
-*. The bug, as the before-and-after code change required to fix it
+4. The bug, as the before-and-after code change required to fix it
    Before:
 ```
    static List<String> filter(List<String> list, StringChecker sc) {

@@ -28,7 +28,7 @@
     }
 ```
 3. The symptom, as the output of running the tests
-![Image](symtom_lab3.png)
+![Image](symptom_lab3.png)
 
 4. The bug, as the before-and-after code change required to fix it
    Before:

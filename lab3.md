@@ -63,28 +63,28 @@ Explanation: The "0" in the "add" method ```result.add(0, s)``` indicates that "
 I use the "man find" command to look for the find -option that I found here.
 - name option:
 ```
-find ./technical/biomed/ -name "rr*.txt"
+    find ./technical/biomed/ -name "rr*.txt"
 ```
 ```
     find . -name "14*.txt"
 ```
 - path option:
 ```
-find . -path ./technical/biomed/1*15.txt
+    find . -path ./technical/biomed/1*15.txt
 ```
 ```
     find . -path "*./*plos*.txt"
 ```
 - size option:
 ```
-find . -size -100M"
+    find . -size -100M"
 ```
 ```
     find ./technical/plos/ -size +0M -size -5M
 ```
 - type option:
 ```
-find . -type f
+    find . -type f
 ```
 ```
     find . -type d

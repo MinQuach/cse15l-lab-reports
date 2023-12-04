@@ -232,5 +232,5 @@ Command line to run: `bash compileAndRun.sh`
 To fix the bug edit filter and replace the calls to `remove` with calls to `get`. In addition, add a second `"p"` into the array list in `testFilter2`. 
 
 **Part 2: Reflection**
-
+I learned how to grep for numbers. That is when you run the grep command, and pick out the numbers from the input string in order. This is useful in formatting output to be easier to read. For instance, when we just want to print out the number of tests failed over the total tests like the grade for the assignment.
 
